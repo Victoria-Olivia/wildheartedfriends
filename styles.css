@@ -13,16 +13,23 @@ body {
 
 font-family: 'Poppins', sans-serif;
 
-background:
-radial-gradient(circle at 20% 20%, rgba(55,176,255,0.12), transparent 30%),
-radial-gradient(circle at 80% 0%, rgba(251,61,254,0.10), transparent 25%),
-linear-gradient(180deg, #02021a 0%, #02032f 40%, #040445 75%, #2b006c 100%);
+background-image: url("whf-bg.png");
+
+background-size: contain;
+
+background-position: center;
+
+background-repeat: no-repeat;
+
+background-color: #02021a;
 
 color: #ffffff;
 
 line-height: 1.6;
 
 padding: 40px;
+
+min-height: 100vh;
 
 }
 
