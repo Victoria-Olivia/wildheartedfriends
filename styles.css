@@ -192,6 +192,15 @@ box-shadow: 0 10px 40px rgba(0,0,0,0.6);
 
 }
 
+/* keeps content centered */
+
+main {
+
+max-width: 900px;
+
+margin: auto;
+
+}
 
 /* FOOTER */
 
