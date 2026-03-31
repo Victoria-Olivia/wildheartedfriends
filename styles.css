@@ -187,7 +187,7 @@ margin-bottom: 18px;
 color: #37b0ff;
 
 /* gradient text */
-background: linear-gradient(135deg, #5ce1e6 5%, #37b0ff 10%, #8c52ff 35%, #fb3dfe 100%);
+background: linear-gradient(135deg, #5ce1e6 9%, #37b0ff 10%, #8c52ff 35%, #fb3dfe 100%);
 
 background-clip: text;
 
@@ -464,7 +464,7 @@ margin-bottom: 10px;
 .episode-title {
 
 font-family: 'Cormorant Garamond', serif;
-font-size: 2.3rem;
+font-size: 2rem;
 margin-bottom: 14px;
 color: #ffffff;
 
