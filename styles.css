@@ -108,9 +108,13 @@ text-decoration: none;
 
 color: rgba(255,255,255,0.85);
 
-font-weight: 400;
+font-weight: 500;
 
-transition: 0.3s ease;
+font-size: 1.1rem;
+
+letter-spacing: 0.05em;
+
+transition: 0.3s ease, text-shadow 0.3s ease;
 
 }
 
@@ -118,6 +122,11 @@ transition: 0.3s ease;
 nav a:hover {
 
 color: #5ce1e6;
+
+text-shadow:
+0 0 12px rgba(92,225,230,1),
+0 0 28px rgba(140,82,255,0.9),
+0 0 50px rgba(251,61,254,0.6);
 
 }
 
