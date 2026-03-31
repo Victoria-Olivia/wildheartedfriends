@@ -496,30 +496,151 @@ font-size: 1.05rem;
 
 }
 
-@media (max-width: 900px) {
+@media (max-width: 950px) {
 
-.about-row {
+  nav {
+    padding: 18px 24px;
+    margin-bottom: 40px;
+  }
 
-flex-direction: column;
+  nav ul {
+    gap: 18px;
+  }
 
-align-items: center;
+  nav a {
+    font-size: 1.2rem;
+  }
 
-text-align: center;
+  h1 {
+    font-size: 3rem;
+  }
 
+  main {
+    padding: 24px;
+  }
+
+  .episode-card {
+    flex-direction: column;
+    text-align: center;
+    padding: 24px;
+  }
+
+  .episode-art {
+    width: 220px;
+    height: 220px;
+  }
+
+  .episode-info {
+    max-width: 100%;
+  }
+
+  .episode-title {
+    font-size: 2rem;
+  }
+
+  .episode-description {
+    font-size: 1.1rem;
+    line-height: 1.8;
+  }
+
+  .about-card {
+    max-width: 900px;
+    padding: 24px;
+  }
+
+  .about-row {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .about-text {
+    max-width: 100%;
+  }
+
+  .about-square {
+    width: 280px;
+    height: 280px;
+  }
 }
 
-.about-text {
+@media (max-width: 640px) {
 
-max-width: 100%;
+  nav {
+    flex-direction: column;
+    gap: 16px;
+    padding: 18px 20px;
+  }
 
-}
+  nav ul {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 14px;
+  }
 
-.about-square {
+  nav a {
+    font-size: 1.05rem;
+  }
 
-width: 280px;
+  .social-row {
+    gap: 18px;
+    margin-top: 0;
+    margin-bottom: 14px;
+  }
 
-height: 280px;
+  .social-row a {
+    font-size: 1.5rem;
+  }
 
-}
+  h1 {
+    font-size: 2.5rem;
+  }
 
+  .tagline {
+    font-size: 1.1rem;
+  }
+
+  .btn-primary {
+    font-size: 1.05rem;
+    padding: 12px 22px;
+    margin-bottom: 18px;
+  }
+
+  .btn-primary:first-of-type {
+    margin-right: 8px;
+  }
+
+  .hero-image {
+    max-width: 100%;
+  }
+
+  .episode-art {
+    width: 190px;
+    height: 190px;
+  }
+
+  .episode-title {
+    font-size: 1.7rem;
+  }
+
+  .episode-label {
+    font-size: 1rem;
+  }
+
+  .episode-description,
+  .about-text,
+  p,
+  .tagline {
+    font-size: 1.05rem;
+    line-height: 1.75;
+  }
+
+  .about-square {
+    width: 220px;
+    height: 220px;
+  }
+
+  footer {
+    font-size: 0.95rem;
+  }
 }
