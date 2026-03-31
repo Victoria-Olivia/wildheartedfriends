@@ -1,93 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<title>Wild Hearted Friends</title>
+  <meta charset="UTF-8">
+  <title>Wild Hearted Friends</title>
 
-<link rel="icon" type="image/png" href="favicon.png">
+  <link rel="icon" type="image/png" href="favicon.png">
 
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500&display=swap" rel="stylesheet">
 
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
-<link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles.css">
 
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body>
 
-<header>
+  <header>
+    <nav class="site-nav">
 
-<nav>
-    
-<a href="index.html">
-  <img src="whflogo.png" alt="Wild Hearted Friends podcast logo" class="logo">
-</a>
+      <a href="index.html">
+        <img src="whflogo.png" alt="Wild Hearted Friends podcast logo" class="logo">
+      </a>
 
-<ul>
-<li><a href="index.html">Home</a></li>
-<li><a href="episodes.html">Episodes</a></li>
-<li><a href="about.html">About</a></li>
-<li><a href="#">Blog</a></li>
-<li><a href="https://linktr.ee/wildheartedfriends" target="_blank" rel="noopener noreferrer">Social</a></li>
-</ul>
+      <button
+        class="menu-toggle"
+        aria-label="Open navigation menu"
+        aria-expanded="false"
+        aria-controls="nav-links">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
 
-</nav>
+      <ul id="nav-links" class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="episodes.html">Episodes</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="https://linktr.ee/wildheartedfriends" target="_blank" rel="noopener noreferrer">Social</a></li>
+      </ul>
 
-</header>
+    </nav>
+  </header>
 
+  <main>
+    <section class="hero">
 
-<main>
+      <div class="social-row">
+        <a href="https://podcasts.apple.com/us/podcast/wild-hearted-friends/id1889403009" target="_blank" rel="noopener noreferrer" aria-label="Listen on Apple Podcasts">
+          <i class="fa-solid fa-podcast"></i>
+        </a>
 
-<section class="hero">
+        <a href="https://open.spotify.com/show/3q0X1eHbqtjaOvnjuAPThY" target="_blank" rel="noopener noreferrer" aria-label="Listen on Spotify">
+          <i class="fa-brands fa-spotify"></i>
+        </a>
 
-    
-<div class="social-row">
+        <a href="https://www.instagram.com/wildheartedfriends" target="_blank" rel="noopener noreferrer" aria-label="Visit Instagram">
+          <i class="fa-brands fa-instagram"></i>
+        </a>
+      </div>
 
-<a href="https://podcasts.apple.com/us/podcast/wild-hearted-friends/id1889403009" target="_blank" rel="noopener noreferrer" aria-label="Listen on Apple Podcasts">
-<i class="fa-solid fa-podcast"></i>
-</a>
+      <h1>Wild Hearted Friends</h1>
 
-<a href="https://open.spotify.com/show/3q0X1eHbqtjaOvnjuAPThY" target="_blank" rel="noopener noreferrer" aria-label="Listen on Spotify">
-<i class="fa-brands fa-spotify"></i>
-</a>
+      <p class="tagline">
+        A Late-Night Podcast with Vic & Erin.
+      </p>
 
-<a href="https://www.instagram.com/wildheartedfriends" target="_blank" rel="noopener noreferrer" aria-label="Visit Instagram">
-<i class="fa-brands fa-instagram"></i>
-</a>
+      <a href="https://podcasts.apple.com/us/podcast/wild-hearted-friends/id1889403009" target="_blank" rel="noopener noreferrer" class="btn-primary">
+        Listen On
+        <i class="fa-brands fa-apple"></i>
+        Podcasts
+      </a>
 
-</div>
+      <img src="hosts-photo.jpg" alt="MEET YOUR HOSTS" class="hero-image">
 
-<h1>Wild Hearted Friends</h1>
+    </section>
+  </main>
 
-<p class="tagline">
-A Late-Night Podcast with Vic & Erin.
-</p>
+  <footer>
+    <p>
+      Copyright © 2025 Wild Hearted Friends. All rights reserved.
+    </p>
+  </footer>
 
-<a href="https://podcasts.apple.com/us/podcast/wild-hearted-friends/id1889403009" target="_blank" rel="noopener noreferrer" class="btn-primary">
-Listen On
-<i class="fa-brands fa-apple"></i>
-Podcasts
-</a>
-
-
-<img src="hosts-photo.jpg" alt="MEET YOUR HOSTS" class="hero-image">
-
-</section>
-
-</main>
-
-
-<footer>
-
-<p>
-Copyright © 2025 Wild Hearted Friends. All rights reserved.
-</p>
-
-</footer>
-
+  <script src="script.js"></script>
 
 </body>
 </html>
