@@ -525,6 +525,26 @@ margin-bottom: 24px;
 
 }
 
+.episode-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.episode-buttons .btn-primary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  width: auto;
+  white-space: nowrap;
+  margin-bottom: 0;
+  margin-right: 0;
+  flex: 0 0 auto;
+}
+
 
 /* FOOTER */
 
