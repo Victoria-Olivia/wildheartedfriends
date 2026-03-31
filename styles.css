@@ -408,12 +408,6 @@ max-width: 460px;
 
 }
 
-.btn-primary:first-of-type {
-
-margin-right: 12px;
-
-}
-
 .episode-card {
 
 display: flex;
@@ -442,6 +436,16 @@ box-shadow:
 0 0 18px rgba(92,225,230,0.18),
 0 0 30px rgba(140,82,255,0.18),
 0 10px 40px rgba(0,0,0,0.45);
+
+}
+
+.episode-card .btn-primary {
+
+font-size: 1.05rem;
+
+padding: 10px 20px;
+
+margin-right: 12px;
 
 }
 
