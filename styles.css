@@ -1117,3 +1117,33 @@ margin: 24px auto 28px auto;
 }
 
 }
+
+/* LISTICLE STRUCTURE */
+
+/* main article title stays centered */
+
+.hero h1 {
+  text-align: center;
+}
+
+
+/* numbered listicle subtitles align with text column */
+
+.blog-content h2 {
+
+  text-align: left;
+
+  max-width: 760px;
+
+  margin: 40px auto 12px auto;
+
+}
+
+
+/* improves spacing between list sections */
+
+.blog-content {
+
+  margin-bottom: 45px;
+
+}
