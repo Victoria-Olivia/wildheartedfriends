@@ -6,6 +6,12 @@ padding: 0;
 box-sizing: border-box;
 }
 
+/* ensure full-page coverage */
+
+html, body {
+width: 100%;
+min-height: 100%;
+}
 
 /* BODY */
 
@@ -15,9 +21,9 @@ font-family: 'Poppins', sans-serif;
 
 background-image: url("whf-bg.png");
 
-background-size: contain;
+background-size: cover;
 
-background-position: center;
+background-position: center bottom;
 
 background-repeat: no-repeat;
 
@@ -26,8 +32,6 @@ background-color: #02021a;
 color: #ffffff;
 
 line-height: 1.6;
-
-padding: 40px;
 
 min-height: 100vh;
 
@@ -45,6 +49,44 @@ justify-content: space-between;
 align-items: center;
 
 margin-bottom: 60px;
+
+padding: 20px 40px;
+
+}
+
+/* SOCIAL ROW UNDER NAV */
+
+.social-row {
+
+display: flex;
+
+justify-content: center;
+
+
+
+margin-top: -20px;
+
+margin-bottom: 18px;
+
+gap: 26px;
+
+}
+
+
+.social-row a {
+
+color: rgba(255,255,255,0.75);
+
+font-size: 1.9rem;
+
+transition: 0.3s ease;
+
+}
+
+
+.social-row a:hover {
+
+color: #5ce1e6;
 
 }
 
@@ -135,6 +177,10 @@ margin-bottom: 35px;
 
 font-size: 1.2rem;
 
+letter-spacing: 0.06em;
+
+font-weight: 600;
+
 }
 
 
@@ -199,6 +245,8 @@ main {
 max-width: 900px;
 
 margin: auto;
+
+padding: 40px;
 
 }
 
