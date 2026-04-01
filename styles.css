@@ -1186,3 +1186,53 @@ margin: 24px auto 28px auto;
     transparent
   );
 }
+
+/* MOBILE FIXES FOR ABOUT + EPISODES */
+
+@media (max-width: 950px) {
+
+  .about-row {
+    align-items: flex-start;
+    text-align: left;
+  }
+
+  .about-text {
+    text-align: left;
+    max-width: 100%;
+  }
+
+  .episode-card {
+    text-align: left;
+    align-items: flex-start;
+  }
+
+  .episode-info {
+    width: 100%;
+    max-width: 100%;
+    text-align: left;
+  }
+
+  .episode-description,
+  .episode-title,
+  .episode-label {
+    text-align: left;
+  }
+
+  .episode-buttons {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 640px) {
+
+  .episode-buttons {
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .episode-buttons .btn-primary {
+    display: inline-flex !important;
+    margin: 0 !important;
+  }
+}
