@@ -1236,3 +1236,33 @@ margin: 24px auto 28px auto;
     margin: 0 !important;
   }
 }
+
+/* ABOUT PAGE – center image on mobile, keep text left aligned */
+
+@media (max-width: 950px) {
+
+  .about-square {
+
+    display: block;
+
+    margin-left: auto;
+    margin-right: auto;
+
+  }
+
+}
+
+/* EPISODES – center artwork on mobile */
+
+@media (max-width: 950px) {
+
+  .episode-art {
+
+    display: block;
+
+    margin-left: auto;
+    margin-right: auto;
+
+  }
+
+}
