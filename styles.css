@@ -1266,3 +1266,13 @@ margin: 24px auto 28px auto;
   }
 
 }
+
+/* stronger text weight for blog + articles */
+
+.blog-post-preview .about-text,
+.blog-content .about-text {
+
+  font-weight: 550;
+  letter-spacing: 0.06em;
+
+}
